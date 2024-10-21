@@ -1,0 +1,11 @@
+# Mulai dengan total 0
+total = 0
+angka = None
+
+# Teruskan selama angka bukan 0
+while angka != 0:
+    angka = int(input("Masukkan angka (ketik 0 untuk berhenti): "))
+    total += angka  # Tambah angka ke total
+
+# Tampilkan total
+print("Total semua angka yang dimasukkan:", total)
